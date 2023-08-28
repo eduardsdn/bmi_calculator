@@ -6,8 +6,9 @@
     display: flex;
     justify-content: center;
     margin-bottom: 65px;
+    /* flex-shrink: 0; */
     /* margin-left: -400px; */
-    max-height: 737px;
+    /* max-height: 737px; */
 }
 
 .resultDesctiptionHolder {
