@@ -103,6 +103,23 @@
         column-gap: 24px;
         margin-bottom: 24px;
     }
+    
+    .limitationsTextContent {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 3.5rem;
+    }
+
+    .limitationsTitle {
+        font-size: 2rem;
+        margin-bottom: 2rem ;
+    }
+
+    .limitationsText {
+        text-align: center;
+    }
 
     .fifthLimitationCardHolder {
         display: flex;

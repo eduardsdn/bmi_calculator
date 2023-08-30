@@ -3,7 +3,8 @@
     gap: 32px;
     border-radius: 35px;
     padding: 72px 117px 96px 116px;
-    background: linear-gradient(315deg, #D6E6FE 0%, rgba(214, 252, 254, 0.00) 10%);
+    /* background: linear-gradient(315deg, #D6E6FE 0%, rgba(214, 252, 254, 0.00) 10%); */
+    background: linear-gradient(315deg, #D6E6FE 0%, rgba(214, 252, 254, 0.00) 50%);;
 }
 
 .adviceCard {

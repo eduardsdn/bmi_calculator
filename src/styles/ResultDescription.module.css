@@ -2,7 +2,7 @@
     /* margin-bottom: 96px; */
     display: flex;
     align-items: center;
-    /* align-items: baseline; */
+    justify-content: center;
 }
 
 .resultDescriptionImg {
@@ -28,7 +28,6 @@
 }
 
 .resultDescriptionText {
-    /* margin-top: 184px; */
     color: #5E6E85;
     font-family: Inter;
     font-size: 1rem;
@@ -46,15 +45,26 @@
 }
 
 @media screen and (max-width: 1260px){
+
+    .resultDescription {
+        margin-right: 43px;
+        overflow: hidden;
+        position: relative;
+    }
+
     .resultDescriptionImg {
-        width: 360.957px;
-        height: 411.09px;
+        width: 400px;
+        /* height: 411px; */
+        /* position: relative;
+        right: 60px; */
     }
 
     .resultDescriptionTextContent {
         margin-left: 75px;
         max-width: 465px;
-        margin-top: 184px;
+        /* margin-top: 184px; */
+        margin-top: 60px;
+        
     }
     
     .resultDescriptionTitle {
@@ -62,9 +72,21 @@
         font-size: 2rem;
         font-weight: 600;
         line-height: 2.2rem;
-        letter-spacing: -0.1px;
+        /* letter-spacing: -0.1px; */
     }
     
+}
+
+@media screen and (max-width: 768px) {
+    .resultDescriptionImg {
+        position: relative;
+        right: 60px;
+    }
+
+    .resultDescriptionTextContent {
+        margin-left: 15px;
+    }
+
 }
 
 

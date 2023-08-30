@@ -41,6 +41,11 @@
 }
 
 @media screen and (max-width: 820px){
+    .logo {
+        margin-bottom: 2.5rem;
+        min-width: 40px;
+    }
+
     .hero {
         margin-left: 0px;
         position: relative;
