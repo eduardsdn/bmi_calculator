@@ -6,6 +6,7 @@
     display: flex;
     justify-content: center;
     margin-bottom: 65px;
+    position: relative;
     /* flex-shrink: 0; */
     /* margin-left: -400px; */
     /* max-height: 737px; */
@@ -95,6 +96,11 @@
 }
 
 @media screen and (max-width: 820px){
+    .hero {
+        margin-bottom: 277px;
+    }
+
+
     .limitationsCards {
         display: grid;
         grid-template-rows: repeat(2, 1fr);

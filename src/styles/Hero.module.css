@@ -8,7 +8,8 @@
     overflow: hidden;
     justify-self: flex-start;
     margin-left: -300px;
-    /* position: fixed; */
+    position: relative;
+    overflow: visible;
 }
 
 
