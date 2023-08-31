@@ -47,4 +47,24 @@
         display: flex;
         gap:40px;
     }
+
+    .adviceCardImg {
+        margin-bottom: 0px;
+    }
+}
+
+@media screen  and (max-width: 390px){
+    .adviceCards {
+        background: #FFF;
+        padding: 0px 19px;
+        gap: 40px;
+    }
+
+    .adviceCard {
+        flex-direction: column;
+    }
+
+    .adviceCardImg {
+        max-width: 64px;
+    }
 }

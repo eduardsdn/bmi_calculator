@@ -89,4 +89,23 @@
 
 }
 
+@media screen and (max-width: 680px) {
+    .resultDescription {
+        flex-direction: column;
+        margin-right: 0px;
+    }
+
+    .resultDescriptionImg { 
+        position: static;
+        
+    }
+
+    .resultDescriptionText {
+        max-width: 328px;
+    }
+
+    .resultDescriptionTextContent {
+        margin-left: 15px;
+    }
+} 
 
