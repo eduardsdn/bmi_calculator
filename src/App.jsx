@@ -49,30 +49,29 @@ function App() {
 
   const [screenSize, setScreenSize] = React.useState(getCurrentDimension());
 
-  	function getCurrentDimension(){
-    	return {
-      		width: window.innerWidth,
-      		height: window.innerHeight
-    	}
-  	}
+  function getCurrentDimension(){
+    return {
+        width: window.innerWidth,
+        height: window.innerHeight
+    }
+  }
+
+  React.useEffect(() => {
+      const updateDimension = () => {
+          setScreenSize(getCurrentDimension())
+          console.log(screenSize.width)
+      }
+      window.addEventListener('resize', updateDimension);
   
-  	React.useEffect(() => {
-    		const updateDimension = () => {
-      			setScreenSize(getCurrentDimension())
-            console.log(screenSize.width)
-    		}
-    		window.addEventListener('resize', updateDimension);
-    
-    		return(() => {
-        		window.removeEventListener('resize', updateDimension);
-    		})
-  	}, [screenSize])
+      return(() => {
+          window.removeEventListener('resize', updateDimension);
+      })
+  }, [screenSize])
 
   return (
     <div className={AppCSS.app} >
       <div className={AppCSS.hero}>
         <Hero></Hero>
-        {/* <Calculator></Calculator> */}
       </div>
       <div className={AppCSS.resultDesctiptionHolder}>
         <ResultDescription></ResultDescription>

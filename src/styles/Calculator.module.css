@@ -27,7 +27,10 @@
 .radioInputs {
     margin-bottom: 2.188rem;
     display: flex;  
-    gap: 10.188em;
+    /* gap: 10.188em; */
+    /* gap: 163px; */
+    justify-content: space-between;
+    padding-right: 126px;
 }
 
 input[type="radio"] {
@@ -41,7 +44,7 @@ input[type="radio"] {
 }
 
 .radioInputLabel {
-    margin-left: 18px;
+    margin-left: 1.25vw;
     color: #253347;
     font-size: 16px;
     font-style: normal;
@@ -49,8 +52,20 @@ input[type="radio"] {
     line-height: 24px;
 }
 
-.numericInputs {
+.metricNumericInputs {
     margin-bottom: 32px;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.imperialNumericInputs {
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.imperialHeightInputs, .imperialWeightInputs {
     display: flex;
     gap: 1.5rem;
 }
@@ -62,7 +77,8 @@ input[type="radio"] {
 }
 
 input[type="number"] {
-    width: 16.528vw;
+    /* width: 16.528vw; */
+    width: 100%;
     max-width: 238px;
     padding: 1.25rem 1.5rem;
     border-radius: 12px;
@@ -74,6 +90,19 @@ input[type="number"] {
     font-weight: 600;
     line-height: normal;
     letter-spacing: -1.2px;
+}
+
+.fakeInputHolder {
+    position: relative;
+}
+
+.fakeInputPlaceholder {
+    position: absolute;
+    top: 20px;
+    right: 24px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #345FF6;
 }
 
 input::-webkit-outer-spin-button,
@@ -99,7 +128,7 @@ input[type="number"]:focus {
     line-height: 21px;
 }
 
-.result {
+.greeting {
     padding: 32px;
     display: flex;
     padding: 32px;
@@ -107,6 +136,33 @@ input[type="number"]:focus {
     gap: 24px;
     border-radius: 16px 999px 999px 16px;
     background: linear-gradient(90deg, #345FF6 0%, #587DFF 100%);
+}
+
+.result {
+    padding: 32px;
+    display: flex;
+    padding: 32px;
+    gap: 24px;
+    border-radius: 16px 999px 999px 16px;
+    background: linear-gradient(90deg, #345FF6 0%, #587DFF 100%);
+}
+
+.bmiIs {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.bmiResult {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: -3.2px;
 }
 
 .greetingWelcome {
@@ -127,6 +183,14 @@ input[type="number"]:focus {
     line-height: 21px;
 }
 
+.classification {
+    color: var(--Pure-White, #FFF);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+
 
 /* @media screen and (max-width: 1260px){
     .calculator {
@@ -140,7 +204,7 @@ input[type="number"]:focus {
 
 @media screen and (max-width: 1440px) {
     .radioInputs {
-        gap: 11.319vw;
+        gap: 40%;
     }
 
     .numericInputs {
@@ -149,11 +213,12 @@ input[type="number"]:focus {
 }
 
 @media screen and (max-width: 820px) {
+
     .calculator {
         width: 80%;
         max-width: 80%;
         left: 10%;
-        top: 314px;
+        top: 390px;
     }
 
     .radioInputs {
@@ -166,3 +231,47 @@ input[type="number"]:focus {
         /* gap: 1.667vw; */
     }
 }
+
+@media screen and (max-width: 560px) {
+    .calculator {
+        width: 90%;
+        max-width: 90%;
+        left: 5%;
+    }
+
+    .greeting, .result {
+        max-width: 280px;
+        border-radius: 16px;
+        flex-direction: column;
+        max-width: 100%;
+        gap: 16px;
+    }
+
+    .bmiResult {
+        font-size: 2.5rem;
+    }
+
+    .metricNumericInputs {
+        margin-bottom: 32px;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .imperialNumericInputs {
+        margin-bottom: 32px;
+        gap: 1rem;
+    }
+
+    .imperialHeightInputs, .imperialWeightInputs {
+        gap: 1rem;
+    }
+    
+}
+
+@media screen and (max-width: 390px) {
+    .calculator {
+        top: 450px;
+    }
+}
+
