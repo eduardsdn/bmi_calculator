@@ -15,7 +15,7 @@
 
 /* 4.688rem 18.625rem 12.5rem 13.5rem; */
 .logo {
-    width: 4.444vw;
+    /* width: 4.444vw; */
     max-width: 64px;
     margin-bottom: 7.9rem;
 }
@@ -57,6 +57,7 @@
 @media screen and (max-width: 820px){
     .logo {
         margin-bottom: 2.5rem;
+        width: 5vw;
         min-width: 40px;
     }
 

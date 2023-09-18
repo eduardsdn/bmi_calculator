@@ -221,6 +221,10 @@ input[type="number"]:focus {
         top: 390px;
     }
 
+    .result {
+        align-items: center;
+    }
+
     .radioInputs {
         gap: 32.5%;
     }
@@ -237,6 +241,10 @@ input[type="number"]:focus {
         width: 90%;
         max-width: 90%;
         left: 5%;
+    }
+
+    .result {
+        align-items: inherit;
     }
 
     .greeting, .result {

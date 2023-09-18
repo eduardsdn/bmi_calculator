@@ -91,7 +91,8 @@
     }
 
     .limitationsHolder{
-        margin: 0px 39px;
+        margin: 0px 39px ;
+        margin-bottom: 95px;
     }
 }
 
@@ -142,6 +143,7 @@
 
     .limitationsHolder {
         margin: 0px 19px;
+        margin-bottom: 95px;
     }
 
     .limitations {
