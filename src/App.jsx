@@ -13,9 +13,6 @@ import limitationsMuscleImg from "./assets/images/icon-muscle.svg";
 import limitationsPregnancyImg from "./assets/images/icon-pregnancy.svg";
 import limitationsRaceImg from "./assets/images/icon-race.svg";
 
-import decorationLineLeft from "./assets/images/pattern-curved-line-left.svg";
-import decorationLineRight from "./assets/images/pattern-curved-line-right.svg";
-
 function App() {
   const limitationCards = [
     {
@@ -58,7 +55,6 @@ function App() {
   React.useEffect(() => {
     const updateDimension = () => {
       setScreenSize(getCurrentDimension());
-      console.log(screenSize.width);
     };
     window.addEventListener("resize", updateDimension);
 

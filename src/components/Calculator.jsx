@@ -1,11 +1,6 @@
 import React from "react";
 import CalculatorCSS from "../styles/Calculator.module.css";
 
-// - Underweight: BMI less than 18.5
-// - Healthy weight: BMI 18.5 to 24.9
-// - Overweight: BMI 25 to 29.9
-// - Obese: BMI 30 or greater
-
 function Calculator() {
   const [formData, setFormData] = React.useState({
     weight: undefined,
@@ -65,7 +60,6 @@ function Calculator() {
 
   function onOptionChange(event) {
     setBmi(undefined);
-    console.log(formData);
     if (event.target.id === "metric") {
       setIsMetric(true);
     } else if (event.target.id === "imperic") {
