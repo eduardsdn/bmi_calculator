@@ -1,108 +1,107 @@
-
 .calculator {
-    width: 57%;
-    /* max-width: 564px; */
-    height: fit-content;
-    padding: 2rem;
-    border-radius: 16px;
-    background-color: #FFF;
-    box-shadow: 16px 32px 56px 0px rgba(143, 174, 207, 0.25);
-    position: absolute;
-    left: 70%;
-    top: 150px;
-    scale: 1.2;
-    
+  width: 57%;
+  /* max-width: 564px; */
+  height: fit-content;
+  padding: 2rem;
+  border-radius: 16px;
+  background-color: #fff;
+  box-shadow: 16px 32px 56px 0px rgba(143, 174, 207, 0.25);
+  position: absolute;
+  left: 70%;
+  top: 150px;
+  scale: 1.2;
 }
 
 .title {
-    margin-bottom: 32px;
-    color: #253347;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    letter-spacing: -1.2px;
+  margin-bottom: 32px;
+  color: #253347;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -1.2px;
 }
 
 .radioInputs {
-    margin-bottom: 2.188rem;
-    display: flex;  
-    /* gap: 10.188em; */
-    /* gap: 163px; */
-    justify-content: space-between;
-    padding-right: 126px;
+  margin-bottom: 2.188rem;
+  display: flex;
+  /* gap: 10.188em; */
+  /* gap: 163px; */
+  justify-content: space-between;
+  padding-right: 126px;
 }
 
 input[type="radio"] {
-    width: 31px;
-    height: 31px;
+  width: 31px;
+  height: 31px;
 }
 
 .radioInputHolder {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .radioInputLabel {
-    margin-left: 1.25vw;
-    color: #253347;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 24px;
+  margin-left: 1.25vw;
+  color: #253347;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
 }
 
 .metricNumericInputs {
-    margin-bottom: 32px;
-    display: flex;
-    gap: 1.5rem;
+  margin-bottom: 32px;
+  display: flex;
+  gap: 1.5rem;
 }
 
 .imperialNumericInputs {
-    margin-bottom: 32px;
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
-.imperialHeightInputs, .imperialWeightInputs {
-    display: flex;
-    gap: 1.5rem;
+.imperialHeightInputs,
+.imperialWeightInputs {
+  display: flex;
+  gap: 1.5rem;
 }
 
 .numericInputHolder {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 input[type="number"] {
-    /* width: 16.528vw; */
-    width: 100%;
-    max-width: 238px;
-    padding: 1.25rem 1.5rem;
-    border-radius: 12px;
-    border: 1px solid #D8E2E7;
-    background:#FFF;
-    color: #253347;
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    letter-spacing: -1.2px;
+  /* width: 16.528vw; */
+  width: 100%;
+  max-width: 238px;
+  padding: 1.25rem 1.5rem;
+  border-radius: 12px;
+  border: 1px solid #d8e2e7;
+  background: #fff;
+  color: #253347;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -1.2px;
 }
 
 .fakeInputHolder {
-    position: relative;
+  position: relative;
 }
 
 .fakeInputPlaceholder {
-    position: absolute;
-    top: 20px;
-    right: 24px;
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: #345FF6;
+  position: absolute;
+  top: 20px;
+  right: 24px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #345ff6;
 }
 
 input::-webkit-outer-spin-button,
@@ -111,86 +110,85 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-input[type=number] {
+input[type="number"] {
   -moz-appearance: textfield;
 }
 
 input[type="number"]:focus {
-    outline: none;
-    border:1px solid #345FF6;
+  outline: none;
+  border: 1px solid #345ff6;
 }
 
 .numericInputLabel {
-    color: #5E6E85;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 21px;
+  color: #5e6e85;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
 }
 
 .greeting {
-    padding: 32px;
-    display: flex;
-    padding: 32px;
-    flex-direction: column;
-    gap: 24px;
-    border-radius: 16px 999px 999px 16px;
-    background: linear-gradient(90deg, #345FF6 0%, #587DFF 100%);
+  padding: 32px;
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  gap: 24px;
+  border-radius: 16px 999px 999px 16px;
+  background: linear-gradient(90deg, #345ff6 0%, #587dff 100%);
 }
 
 .result {
-    padding: 32px;
-    display: flex;
-    padding: 32px;
-    gap: 24px;
-    border-radius: 16px 999px 999px 16px;
-    background: linear-gradient(90deg, #345FF6 0%, #587DFF 100%);
+  padding: 32px;
+  display: flex;
+  padding: 32px;
+  gap: 24px;
+  border-radius: 16px 999px 999px 16px;
+  background: linear-gradient(90deg, #345ff6 0%, #587dff 100%);
 }
 
 .bmiIs {
-    color: #FFF;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 24px;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
 }
 
 .bmiResult {
-    color: #FFF;
-    font-family: Inter;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 70px;
-    letter-spacing: -3.2px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 70px;
+  letter-spacing: -3.2px;
 }
 
 .greetingWelcome {
-    color: #FFF;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    letter-spacing: -1.2px;
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -1.2px;
 }
 
 .greetingText {
-    color: #FFF;
-    font-family: Inter;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 21px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
 }
 
 .classification {
-    color: var(--Pure-White, #FFF);
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 150%;
+  color: var(--Pure-White, #fff);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
 }
-
 
 /* @media screen and (max-width: 1260px){
     .calculator {
@@ -201,85 +199,83 @@ input[type="number"]:focus {
     }
 } */
 
-
 @media screen and (max-width: 1440px) {
-    .radioInputs {
-        gap: 40%;
-    }
+  .radioInputs {
+    gap: 40%;
+  }
 
-    .numericInputs {
-        gap: 1.667vw;
-    }
+  .numericInputs {
+    gap: 1.667vw;
+  }
 }
 
 @media screen and (max-width: 820px) {
+  .calculator {
+    width: 80%;
+    max-width: 80%;
+    left: 10%;
+    top: 390px;
+  }
 
-    .calculator {
-        width: 80%;
-        max-width: 80%;
-        left: 10%;
-        top: 390px;
-    }
+  .result {
+    align-items: center;
+  }
 
-    .result {
-        align-items: center;
-    }
+  .radioInputs {
+    gap: 32.5%;
+  }
 
-    .radioInputs {
-        gap: 32.5%;
-    }
-
-    input[type="number"] {
-        width: 100%;
-        max-width: none;
-        /* gap: 1.667vw; */
-    }
+  input[type="number"] {
+    width: 100%;
+    max-width: none;
+    /* gap: 1.667vw; */
+  }
 }
 
 @media screen and (max-width: 560px) {
-    .calculator {
-        width: 90%;
-        max-width: 90%;
-        left: 5%;
-    }
+  .calculator {
+    width: 90%;
+    max-width: 90%;
+    left: 5%;
+  }
 
-    .result {
-        align-items: inherit;
-    }
+  .result {
+    align-items: inherit;
+  }
 
-    .greeting, .result {
-        max-width: 280px;
-        border-radius: 16px;
-        flex-direction: column;
-        max-width: 100%;
-        gap: 16px;
-    }
+  .greeting,
+  .result {
+    max-width: 280px;
+    border-radius: 16px;
+    flex-direction: column;
+    max-width: 100%;
+    gap: 16px;
+  }
 
-    .bmiResult {
-        font-size: 2.5rem;
-    }
+  .bmiResult {
+    font-size: 2.5rem;
+  }
 
-    .metricNumericInputs {
-        margin-bottom: 32px;
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-    }
+  .metricNumericInputs {
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
 
-    .imperialNumericInputs {
-        margin-bottom: 32px;
-        gap: 1rem;
-    }
+  .imperialNumericInputs {
+    margin-bottom: 32px;
+    gap: 1rem;
+  }
 
-    .imperialHeightInputs, .imperialWeightInputs {
-        gap: 1rem;
-    }
-    
+  .imperialHeightInputs,
+  .imperialWeightInputs {
+    gap: 1rem;
+  }
 }
 
 @media screen and (max-width: 390px) {
-    .calculator {
-        top: 450px;
-    }
+  .calculator {
+    top: 450px;
+  }
 }
-
