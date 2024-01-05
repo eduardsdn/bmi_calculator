@@ -214,7 +214,7 @@ input[type="number"]:focus {
     width: 80%;
     max-width: 80%;
     left: 10%;
-    top: 390px;
+    top: 450px;
   }
 
   .result {
@@ -235,8 +235,8 @@ input[type="number"]:focus {
 @media screen and (max-width: 560px) {
   .calculator {
     width: 90%;
-    max-width: 90%;
-    left: 5%;
+    max-width: 80%;
+    left: 10%;
   }
 
   .result {
@@ -274,8 +274,8 @@ input[type="number"]:focus {
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 452px) {
   .calculator {
-    top: 450px;
+    top: 480px;
   }
 }

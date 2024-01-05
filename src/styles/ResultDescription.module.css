@@ -48,6 +48,7 @@
     margin-right: 43px;
     overflow: hidden;
     position: relative;
+    margin-top: 100px;
   }
 
   .resultDescriptionImg {
@@ -84,10 +85,17 @@
   }
 }
 
+@media screen and (max-width: 820px) {
+  .resultDescription {
+    margin-top: 175px;
+  }
+}
+
 @media screen and (max-width: 680px) {
   .resultDescription {
     flex-direction: column;
     margin-right: 0px;
+    margin-top: 220px;
   }
 
   .resultDescriptionImg {
