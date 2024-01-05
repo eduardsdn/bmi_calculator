@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/bmi_calculator/static/css/main.b5a7d604.css",
+    "main.js": "/bmi_calculator/static/js/main.ba97dae7.js",
+    "static/media/Inter-SemiBold.ttf": "/bmi_calculator/static/media/Inter-SemiBold.1616d5720720a412cfc8.ttf",
+    "static/media/Inter-Regular.ttf": "/bmi_calculator/static/media/Inter-Regular.b559a93b35af397f4b6f.ttf",
+    "static/media/image-man-eating.webp": "/bmi_calculator/static/media/image-man-eating.f812e53be74268ca2027.webp",
+    "static/media/logo.svg": "/bmi_calculator/static/media/logo.dfb4f1973aa3d381f6e050c0b8b911f3.svg",
+    "static/media/icon-muscle.svg": "/bmi_calculator/static/media/icon-muscle.bdedb9e60375115fb99ae8750a353582.svg",
+    "static/media/icon-race.svg": "/bmi_calculator/static/media/icon-race.fe09ea42d8031f9a5c7a3a15c1255ad4.svg",
+    "static/media/icon-age.svg": "/bmi_calculator/static/media/icon-age.c616f537e6afd4ee95680053fc45e5ac.svg",
+    "static/media/icon-exercise.svg": "/bmi_calculator/static/media/icon-exercise.8f90be9ff690c6bf483c92cc3714c3ee.svg",
+    "static/media/icon-eating.svg": "/bmi_calculator/static/media/icon-eating.861b6958ba7128610e837cd5658c150c.svg",
+    "static/media/icon-sleep.svg": "/bmi_calculator/static/media/icon-sleep.e50dd5c8961837dad8f909e9592cb011.svg",
+    "static/media/icon-pregnancy.svg": "/bmi_calculator/static/media/icon-pregnancy.e5614be8e3e12ec372a92524b785ce40.svg",
+    "static/media/icon-gender.svg": "/bmi_calculator/static/media/icon-gender.2eda6d92213b8841b857b6997bc9842e.svg",
+    "index.html": "/bmi_calculator/index.html",
+    "main.b5a7d604.css.map": "/bmi_calculator/static/css/main.b5a7d604.css.map",
+    "main.ba97dae7.js.map": "/bmi_calculator/static/js/main.ba97dae7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5a7d604.css",
+    "static/js/main.ba97dae7.js"
+  ]
+}
